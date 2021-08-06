@@ -36,7 +36,7 @@
 }
 
 #header {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 #header .header-title {
   font-size: var(--header-title);
@@ -60,14 +60,10 @@
 }
 
 .logo:hover,
-.btn:hover,
-.header-title:hover {
+.btn:hover {
   transform: scale(1.1);
 }
 
-.header-title {
-  transition: transform var(--annmaition-duration) ease;
-}
 .contentsBtn:hover {
   transform: scale(1.05);
 }
