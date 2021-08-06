@@ -8,11 +8,11 @@
   --color-light-gray: #dfdfdf;
 
   /* size */
-  --size-contentsBtn-width: 90px;
-  --size-contentsBtn-height: 120px;
+  --size-contentsBtn-width: 70px;
+  --size-contentsBtn-height: 110px;
 
-  --size-mnuBtn-width: 55px;
-  --size-mnuBtn-height: 55px;
+  --size-mnuBtn-width: 40px;
+  --size-mnuBtn-height: 40px;
 
   --size-logo: 55px;
   --size-instalogo: 15px;
@@ -77,7 +77,6 @@
 
 .contents {
   margin: 15px;
-  display: flex;
 }
 .contents .contentsBtn {
   width: var(--size-contentsBtn-width);
