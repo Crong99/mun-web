@@ -8,8 +8,8 @@
   --color-light-gray: #dfdfdf;
 
   /* size */
-  --size-contentsBtn-width: 115px;
-  --size-contentsBtn-height: 165px;
+  --size-contentsBtn-width: 90px;
+  --size-contentsBtn-height: 120px;
 
   --size-mnuBtn-width: 55px;
   --size-mnuBtn-height: 55px;
@@ -77,6 +77,7 @@
 
 .contents {
   margin: 15px;
+  display: flex;
 }
 .contents .contentsBtn {
   width: var(--size-contentsBtn-width);
