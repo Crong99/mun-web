@@ -36,7 +36,7 @@
 }
 
 #header {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 #header .header-title {
   font-size: var(--header-title);
@@ -97,6 +97,6 @@
 }
 
 .mnuInfo .Info-tit {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: bold;
 }
