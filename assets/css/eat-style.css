@@ -27,7 +27,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 .logo {
   cursor: pointer;
@@ -47,7 +46,7 @@
 }
 #header .header-producer {
   position: absolute;
-  margin-left: 50px;
+  margin-left: 150px;
   margin-top: -20px;
   font-size: 13px;
   font-weight: bold;
@@ -76,19 +75,6 @@
   transition: transform var(--annmaition-duration) ease;
 }
 
-.contents {
-  margin: 15px;
-}
-.contents .contentsBtn {
-  width: var(--size-contentsBtn-width);
-  height: var(--size-contentsBtn-height);
-
-  transition: transform ar(--annmaition-duration) ease;
-  padding: 15px;
-  border-radius: 30px;
-  border: 2px solid var(--color-black);
-}
-
 .mnuMeal .mnu-meal {
   width: 70px;
   height: 70px;
@@ -96,10 +82,14 @@
   border-radius: 30px;
   border: 2px solid var(--color-black);
 }
+.mnuMeal .today-meal {
+  font-size: 14px;
+  font-weight: bold;
+}
 .mnuInfo .mnuBtn {
   width: var(--size-mnuBtn-width);
   height: var(--size-mnuBtn-height);
-  margin: 15px;
+  margin: 12px;
   border-radius: 20px;
   border: 2px solid var(--color-black);
 }
