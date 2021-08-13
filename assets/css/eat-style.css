@@ -11,8 +11,8 @@
   --size-contentsBtn-width: 70px;
   --size-contentsBtn-height: 110px;
 
-  --size-mnuBtn-width: 40px;
-  --size-mnuBtn-height: 40px;
+  --size-mnuBtn-width: 50px;
+  --size-mnuBtn-height: 50px;
 
   --size-logo: 55px;
   --size-instalogo: 15px;
@@ -27,6 +27,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .logo {
   cursor: pointer;
@@ -46,7 +47,7 @@
 }
 #header .header-producer {
   position: absolute;
-  margin-left: 150px;
+  margin-left: 50px;
   margin-top: -20px;
   font-size: 13px;
   font-weight: bold;
@@ -83,16 +84,23 @@
   height: var(--size-contentsBtn-height);
 
   transition: transform ar(--annmaition-duration) ease;
-  padding: 12px;
+  padding: 15px;
   border-radius: 30px;
   border: 2px solid var(--color-black);
 }
 
+.mnuMeal .mnu-meal {
+  width: 70px;
+  height: 70px;
+  margin: 15px;
+  border-radius: 30px;
+  border: 2px solid var(--color-black);
+}
 .mnuInfo .mnuBtn {
   width: var(--size-mnuBtn-width);
   height: var(--size-mnuBtn-height);
-  margin: 10px;
-  border-radius: 15px;
+  margin: 15px;
+  border-radius: 20px;
   border: 2px solid var(--color-black);
 }
 
